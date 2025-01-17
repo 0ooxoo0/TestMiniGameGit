@@ -1,3 +1,5 @@
+using UnityEngine;
+
 // Пример использования в любом вашем MonoBehaviour
 public class TestLoad : MonoBehaviour
 {

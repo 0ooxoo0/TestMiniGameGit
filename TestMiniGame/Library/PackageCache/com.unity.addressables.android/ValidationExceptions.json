@@ -1,0 +1,25 @@
+{
+    "ErrorExceptions": [
+        {
+            "ValidationTest": "API Validation",
+            "ExceptionMessage": "Additions require a new minor or major version.",
+            "PackageVersion": "1.0.4"
+        },
+        {
+            "ValidationTest": "API Validation",
+            "ExceptionMessage": "New assembly \"Unity.Addressables.Android.Editor.Tests\" may only be added in a new minor or major version.",
+            "PackageVersion": "1.0.4"
+        },
+        {
+            "ValidationTest": "API Validation",
+            "ExceptionMessage": "New assembly \"Unity.Addressables.Android.Base.Tests\" may only be added in a new minor or major version.",
+            "PackageVersion": "1.0.4"
+        },
+        {
+            "ValidationTest": "API Validation",
+            "ExceptionMessage": "New assembly \"Unity.Addressables.Android.Tests\" may only be added in a new minor or major version.",
+            "PackageVersion": "1.0.4"
+        }
+    ],
+    "WarningExceptions": []
+}

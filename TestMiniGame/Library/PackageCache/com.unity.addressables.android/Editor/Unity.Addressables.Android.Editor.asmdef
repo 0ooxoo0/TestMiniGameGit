@@ -1,0 +1,13 @@
+{
+    "name": "Unity.Addressables.Android.Editor",
+    "references": [
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "Unity.Addressables.Android",
+        "Unity.ResourceManager"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}

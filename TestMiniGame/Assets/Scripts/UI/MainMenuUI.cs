@@ -1,25 +1,10 @@
 using UnityEngine;
-using UnityEngine.UI;
-using Cysharp.Threading.Tasks;
+using UnityEngine.SceneManagement;
 
 public class MainMenuUI : MonoBehaviour
 {
-    [SerializeField] private Button clickerButton;
-    [SerializeField] private Button triPeaksButton;
-
-    private void Start()
+    public void LoadScene(int sceneid)
     {
-        clickerButton.onClick.AddListener(() => OnClickerButtonPressed().Forget());
-        triPeaksButton.onClick.AddListener(() => OnTriPeaksButtonPressed().Forget());
-    }
-
-    private async UniTaskVoid OnClickerButtonPressed()
-    {
-        await GameFlowManager.LoadScene(GameFlowManager.GameScene.Clicker);
-    }
-
-    private async UniTaskVoid OnTriPeaksButtonPressed()
-    {
-        await GameFlowManager.LoadScene(GameFlowManager.GameScene.TriPeaks);
+        SceneManager.LoadScene(sceneid);
     }
 }

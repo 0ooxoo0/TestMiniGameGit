@@ -2,6 +2,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using Cysharp.Threading.Tasks;
 using UnityEngine.SceneManagement;
+using DG.Tweening;
 
 public class TriPeaksGameManager : MonoBehaviour
 {

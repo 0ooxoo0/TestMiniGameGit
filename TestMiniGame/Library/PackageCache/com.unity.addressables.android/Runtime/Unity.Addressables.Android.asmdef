@@ -1,0 +1,9 @@
+{
+    "name": "Unity.Addressables.Android",
+    "references": [
+        "Unity.Addressables",
+        "Unity.ResourceManager"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Unity.Addressables.Android.Base.Tests",
+    "references": [
+        "Unity.ResourceManager",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "Unity.Addressables.Android.Editor",
+        "Unity.Addressables.Android"
+    ],
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": []
+}
