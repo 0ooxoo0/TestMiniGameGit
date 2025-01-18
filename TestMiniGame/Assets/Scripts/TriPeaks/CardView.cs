@@ -19,10 +19,10 @@ public class CardView : MonoBehaviour
 
         // «агрузка спрайта лицевой стороны из Addressables
         // AddressKey, например, "Card_AceHearts" (или любой другой)
-        AsyncOperationHandle<Sprite> handle = Addressables.LoadAssetAsync<Sprite>(model.AddressKey);
-        Sprite frontSprite = await handle.ToUniTask();
+        //AsyncOperationHandle<Sprite> handle = Addressables.LoadAssetAsync<Sprite>(model.AddressKey);
+        //Sprite frontSprite = await handle.ToUniTask();
 
-        cardImage.sprite = frontSprite;
+        //cardImage.sprite = frontSprite;
 
         // ќбновить состо€ние (лицева€/рубашка)
         UpdateFaceState();

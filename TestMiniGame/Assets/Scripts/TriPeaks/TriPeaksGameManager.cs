@@ -40,15 +40,6 @@ public class TriPeaksGameManager : MonoBehaviour
         StartGame().Forget();
     }
 
-    private void Update()
-    {
-        if (_isGameActive)
-        {
-            _timeElapsed += Time.deltaTime;
-            triPeaksUI.UpdateTimer(_timeElapsed);
-        }
-    }
-
     private async UniTaskVoid StartGame()
     {
         _timeElapsed = 0f;
